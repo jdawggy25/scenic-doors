@@ -151,11 +151,7 @@ const organizationSchema = {
     { "@type": "City", name: "San Diego" },
     { "@type": "City", name: "La Jolla" },
   ],
-  sameAs: [
-    "https://www.facebook.com/scenicdoors",
-    "https://www.instagram.com/scenicdoors",
-    "https://www.linkedin.com/company/scenicdoors",
-  ],
+  sameAs: [],
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5",

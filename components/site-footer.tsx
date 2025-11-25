@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Instagram, Facebook, Linkedin, Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react"
+import { Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function SiteFooter() {
@@ -44,26 +44,6 @@ export function SiteFooter() {
               Southern California's premier luxury door installation company. Crafting premium door systems that
               transform spaces and elevate living since 1998.
             </p>
-            <div className="flex space-x-4">
-              <Link
-                href="#"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
-              >
-                <Instagram className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
-              >
-                <Facebook className="h-5 w-5" />
-              </Link>
-              <Link
-                href="#"
-                className="w-10 h-10 rounded-full bg-primary-foreground/10 flex items-center justify-center hover:bg-accent hover:text-accent-foreground transition-all"
-              >
-                <Linkedin className="h-5 w-5" />
-              </Link>
-            </div>
           </div>
 
           {/* Column 2: Our Doors */}

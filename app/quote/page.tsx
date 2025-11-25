@@ -3,6 +3,22 @@ import { SiteFooter } from "@/components/site-footer"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Phone, Mail, MapPin, CheckCircle2 } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Free Quote | Get Your Door Installation Estimate",
+  description:
+    "Request a free quote for premium door installation. No obligation consultation. Expert advice on folding, sliding & pivot doors. Serving Southern California.",
+  alternates: {
+    canonical: "https://scenicdoors.com/quote",
+  },
+  openGraph: {
+    title: "Free Quote | Get Your Door Installation Estimate",
+    description: "Request a free quote for premium door installation. No obligation consultation.",
+    url: "https://scenicdoors.com/quote",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function QuotePage() {
   return (

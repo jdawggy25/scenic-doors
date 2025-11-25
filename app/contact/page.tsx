@@ -6,6 +6,22 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Contact Us | Reach Our Door Experts",
+  description:
+    "Contact Scenic Doors for premium door installation. Call (800) 555-1234 or visit our Costa Mesa showroom. Mon-Fri 8am-5pm, Sat by appointment.",
+  alternates: {
+    canonical: "https://scenicdoors.com/contact",
+  },
+  openGraph: {
+    title: "Contact Us | Reach Our Door Experts",
+    description: "Contact Scenic Doors for premium door installation. Call (800) 555-1234.",
+    url: "https://scenicdoors.com/contact",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function ContactPage() {
   return (

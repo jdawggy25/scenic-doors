@@ -3,6 +3,22 @@ import { SiteFooter } from "@/components/site-footer"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Project Gallery | Door Installation Portfolio",
+  description:
+    "View our portfolio of luxury door installations. Folding glass walls, multi-slide systems & pivot doors in Beverly Hills, Malibu, Newport Beach & more.",
+  alternates: {
+    canonical: "https://scenicdoors.com/gallery",
+  },
+  openGraph: {
+    title: "Project Gallery | Door Installation Portfolio",
+    description: "View our portfolio of luxury door installations across Southern California.",
+    url: "https://scenicdoors.com/gallery",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function GalleryPage() {
   const projects = [

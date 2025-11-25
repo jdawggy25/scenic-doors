@@ -8,9 +8,18 @@ import { SiteFooter } from "@/components/site-footer"
 import { BreadcrumbNav } from "@/components/breadcrumb-nav"
 
 export const metadata: Metadata = {
-  title: "Premium Door Installation in Los Angeles County | Scenic Doors",
+  title: "Los Angeles County Door Installation | LA Doors",
   description:
-    "Expert door installation services in Los Angeles County. Serving Beverly Hills, Malibu, Santa Monica, Pasadena, and surrounding areas. Factory-certified LaCantina, Fleetwood & Western Window Systems installer.",
+    "Premium door installation in Los Angeles County. Serving Beverly Hills, Malibu, Santa Monica & Pasadena. Factory-certified installer. Free quotes.",
+  alternates: {
+    canonical: "https://scenicdoors.com/service-areas/los-angeles-county",
+  },
+  openGraph: {
+    title: "Los Angeles County Door Installation | Scenic Doors",
+    description: "Premium door installation in Los Angeles County. Serving Beverly Hills, Malibu & more.",
+    url: "https://scenicdoors.com/service-areas/los-angeles-county",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
 }
 
 export default function LosAngelesCountyPage() {

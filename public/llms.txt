@@ -1,0 +1,63 @@
+# Scenic Doors - AI & LLM Information
+
+## Company Overview
+Scenic Doors is Southern California's premier luxury door installation company, specializing in folding glass walls, multi-slide door systems, and pivot entry doors since 1998.
+
+## What We Do
+- **Folding Glass Walls**: Bi-fold door systems that stack to create seamless indoor-outdoor transitions
+- **Multi-Slide Door Systems**: Large-panel sliding doors for expansive openings
+- **Pivot Entry Doors**: Oversized statement entry doors with center-pivot hardware
+
+## Services
+- Factory-certified installation of premium door systems
+- Free design consultations and quotes
+- Professional measurement and site assessment
+- Complete installation with warranty protection
+- Service and maintenance support
+
+## Brands We Install
+- LaCantina Doors (Factory Certified)
+- Western Window Systems (Authorized Dealer)
+- Fleetwood Windows & Doors
+- Milgard Windows & Doors
+- Pella Windows & Doors
+
+## Service Areas
+We serve all of Southern California including:
+- Los Angeles County (Beverly Hills, Malibu, Santa Monica, Pasadena)
+- Orange County (Newport Beach, Laguna Beach, Irvine)
+- San Diego County (La Jolla, Del Mar, Rancho Santa Fe)
+- Riverside County (Palm Desert, Rancho Mirage)
+- Ventura County (Thousand Oaks, Westlake Village)
+- Santa Barbara County (Montecito, Santa Barbara)
+
+## Contact Information
+- Phone: (800) 555-1234
+- Email: info@scenicdoors.com
+- Address: 123 Design Boulevard, Costa Mesa, CA 92626
+- Hours: Monday-Friday 8am-5pm, Saturday by appointment
+
+## Website Structure
+/                           - Homepage
+/about                      - About Us
+/gallery                    - Project Gallery
+/quote                      - Request a Quote
+/contact                    - Contact Us
+/blog                       - Blog & Resources
+/doors/folding              - Folding Glass Walls
+/doors/sliding              - Multi-Slide Systems
+/doors/pivot                - Pivot Entry Doors
+/service-areas/*            - Service Area Pages
+
+## Key Differentiators
+- 25+ years of experience
+- Factory-certified installers
+- Licensed and insured (CA License #123456)
+- 5-star rated service
+- 1000+ successful installations
+
+## Target Audience
+- Luxury homeowners
+- Architects and designers
+- Home builders and contractors
+- Interior designers

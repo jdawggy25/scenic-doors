@@ -5,6 +5,22 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Folding Glass Walls | Bi-Fold Door Installation",
+  description:
+    "Transform your space with folding glass walls. LaCantina certified installer. Seamless indoor-outdoor living. Free consultation in Southern California.",
+  alternates: {
+    canonical: "https://scenicdoors.com/doors/folding",
+  },
+  openGraph: {
+    title: "Folding Glass Walls | Bi-Fold Door Installation",
+    description: "Transform your space with folding glass walls. LaCantina certified installer.",
+    url: "https://scenicdoors.com/doors/folding",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function FoldingDoorsPage() {
   return (

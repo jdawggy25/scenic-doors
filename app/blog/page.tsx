@@ -3,6 +3,22 @@ import { SiteFooter } from "@/components/site-footer"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { ArrowRight, Calendar, Clock } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Blog | Door Design Tips & Industry Insights",
+  description:
+    "Expert tips on door selection, installation guides, and design inspiration. Learn about folding glass walls, multi-slide systems & pivot doors.",
+  alternates: {
+    canonical: "https://scenicdoors.com/blog",
+  },
+  openGraph: {
+    title: "Blog | Door Design Tips & Industry Insights",
+    description: "Expert tips on door selection, installation guides, and design inspiration.",
+    url: "https://scenicdoors.com/blog",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function BlogPage() {
   const blogPosts = [

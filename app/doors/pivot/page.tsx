@@ -5,6 +5,22 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Pivot Entry Doors | Oversized Statement Doors",
+  description:
+    "Make a statement with oversized pivot entry doors. Custom designs, precision installation. Create an unforgettable entrance. Free consultation in Southern CA.",
+  alternates: {
+    canonical: "https://scenicdoors.com/doors/pivot",
+  },
+  openGraph: {
+    title: "Pivot Entry Doors | Oversized Statement Doors",
+    description: "Make a statement with oversized pivot entry doors. Custom designs, precision installation.",
+    url: "https://scenicdoors.com/doors/pivot",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function PivotDoorsPage() {
   return (

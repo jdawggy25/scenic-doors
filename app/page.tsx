@@ -4,6 +4,22 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { ArrowRight, Award, Shield, Star, Users, CheckCircle2, TrendingUp } from "lucide-react"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Scenic Doors | Premium Door Installation | Southern CA",
+  description:
+    "Southern California's premier luxury door installer. Factory-certified folding glass walls, multi-slide systems & pivot doors. Free quotes. 25+ years experience.",
+  alternates: {
+    canonical: "https://scenicdoors.com",
+  },
+  openGraph: {
+    title: "Scenic Doors | Premium Door Installation | Southern CA",
+    description: "Factory-certified folding glass walls, multi-slide systems & pivot doors. Free quotes.",
+    url: "https://scenicdoors.com",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function HomePage() {
   return (

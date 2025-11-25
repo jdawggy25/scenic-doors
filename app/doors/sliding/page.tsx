@@ -5,6 +5,22 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Multi-Slide Doors | Sliding Glass Door Systems",
+  description:
+    "Expert multi-slide door installation. Large-panel sliding systems for expansive openings. Western Window Systems dealer. Free quotes in Southern California.",
+  alternates: {
+    canonical: "https://scenicdoors.com/doors/sliding",
+  },
+  openGraph: {
+    title: "Multi-Slide Doors | Sliding Glass Door Systems",
+    description: "Expert multi-slide door installation. Large-panel sliding systems for expansive openings.",
+    url: "https://scenicdoors.com/doors/sliding",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function SlidingDoorsPage() {
   return (

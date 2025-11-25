@@ -5,6 +5,22 @@ import { Card, CardContent } from "@/components/ui/card"
 import { CheckCircle, Award, Users, Wrench } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About Us | 25+ Years of Excellence",
+  description:
+    "Learn about Scenic Doors - Southern California's trusted luxury door installer since 1998. Factory-certified team, 1000+ installations, 5-star rated service.",
+  alternates: {
+    canonical: "https://scenicdoors.com/about",
+  },
+  openGraph: {
+    title: "About Scenic Doors | 25+ Years of Excellence",
+    description: "Southern California's trusted luxury door installer since 1998. Factory-certified team.",
+    url: "https://scenicdoors.com/about",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
+  },
+}
 
 export default function AboutPage() {
   return (
